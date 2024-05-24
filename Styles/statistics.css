@@ -1,0 +1,31 @@
+.container__estatisticas__listas {
+    display: flex;
+    grid-template-columns: 250px 250px 250px 250px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container__estatisticas__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--vermelho);
+}
+
+.container__estatisticas__subtitulo {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container__estatisticas__paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 1em;
+}
+
+.estatisticas__lista {
+    padding: 8em 6em 6em 8em;
+}
